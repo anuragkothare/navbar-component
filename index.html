@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>
+			Navbar	
+		</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	
+		
+	</head>
+	<body>
+		<!-- Start of non-smaller devices -->
+		<div class="large">
+			<div class="content-one">
+				<div class="left">
+					<ul>
+						<li><a href="#">Navbar</a></li>
+					
+						<li><a href="#">Home</a></li>
+					
+						<li><a href="#">Link</a></li>
+						
+						<li><a href="#"  id="dd-l">Dropdown <i class="fa fa-caret-down"></i></a>
+							<div id="dropdown-large">
+								<a href="#" class="a">Action</a>	
+								<a href="#" class="a">Another action</a>	
+								<a href="#" class="a">Something else here</a>	
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="right">
+					<form class="form">
+					  <input type="text" placeholder="Search Here" >
+					  <input type="button" value="Search">
+					</form> 
+				</div>
+			</div>
+		</div>
+		<!-- End of non-smaller devices -->
+
+		<!-- Start of Smaller devices -->
+		<div class="small">
+			<div class="content-one">
+				<div class="l">
+					<a href="#"><h2>Navbar</h2></a>
+				</div>
+				<div class="r">
+					<a href="#"><h2><i class="fa fa-bars"></i></h2></a>
+				</div>
+			</div>
+			<div id="bars">
+				<div class="ham">
+					<ul>
+						<li><a href="#">Home</a></li>
+					
+						<li><a href="#">Link</a></li>
+						
+						<li><a href="#" id="dd-s">Dropdown <i class="fa fa-caret-down"></i></a>
+							<div id="dropdown-small">
+								<a href="#" class="a">Action</a>	
+								<a href="#" class="a">Another action</a>	
+								<a href="#" class="a">Something else here</a>	
+							</div>
+						</li>
+						
+						<li><form class="form">
+							  <input type="text" placeholder="Search Here" >
+							  <input type="button" value="Search">
+							</form> 
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- End of Smaller devices -->
+
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
